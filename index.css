@@ -13,6 +13,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	
 	}
 /* remember to define focus styles! */
+
 :focus {
 	outline: 0;
     }
@@ -40,7 +41,7 @@ blockquote, q {
     *{
         box-sizing:border-box;
         max-width: 100%;
-        border: 1px solid grey;
+        /* border: 1px solid grey; */
     }
 
     html{
@@ -53,8 +54,8 @@ blockquote, q {
 
     }
     h1{
-        font-family: 'Chelsea '
-        font-size; 5rem;
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5.5rem;
     }
     section{
         padding:4% 0;
@@ -69,7 +70,7 @@ blockquote, q {
         border-radius: 10px;
         width: 10%;
         text-align: center;
-        color: ;
+        color:#fff;
         text-decoration: none;
     }
     .orange{
@@ -79,14 +80,16 @@ blockquote, q {
     }
     .blue{
         background-color: #5ED3EB;
-        margin:0 24;
+        margin:0 24%;
     }
     .yellow{
         background-color: #FFCD69;
         margin-right:10%;
 
     }
-    
+    .top{
+        position:relative;
+    }
     .top div{
         display:inline-block;
         width: 45%;
@@ -96,11 +99,47 @@ blockquote, q {
     }
     .left img{
         border-radius: 50%;
-        width:60%;
+        width:30%;
     }
     .right{
         padding:4%;
         line-height: 2;
         position: absolute;
         bottom:20%;
+        
+    }
+
+    .left, .right{
+        display:inline-block;
+
+    }
+
+    .image{
+        width:30%;
+    }
+    .left{
+        width:55%;
+    }
+    .mid{
+        background-color:#DDB9A3;
+        color:white;
+        padding:2%;
+    }
+    .bot{
+        width:30%;
+        margin:5% auto;
+    }
+    .bold{
+        font-weight:bold;
+    }
+    .picture-img{
+        background-image:url('assets/footer_img.jpg');
+        height:50vh;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: top center;
+        width:100%;
+    }
+    footer{
+        background-color: #F9E7DC;
     }
